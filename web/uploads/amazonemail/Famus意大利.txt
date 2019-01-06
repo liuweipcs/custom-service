@@ -1,0 +1,20 @@
+Ordina il messaggio
+==========
+Caro cliente
+Mi dispiace disturbarti
+
+Siamo il venditore di Famus
+
+Abbiamo spedito il pacco molto presto
+L'hai gi¨¤ ricevuto?
+
+Se ti piace il nostro prodotto
+Potresti per favore condividere la tua buona esperienza di acquisto sulla nostra pagina di prodotto?
+
+Quindi altri clienti possono trovare informazioni utili su questo prodotto
+Va bene per te?
+
+Questo ¨¨ davvero importante per noi
+Spero tu possa capirlo
+
+I migliori saluti

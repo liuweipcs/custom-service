@@ -1,0 +1,14 @@
+Order information inquire
+==========
+Dear customer,
+
+Here is the customer service from Sanure Amazon store.
+
+You purchased one item here.
+Have you received it?
+
+Could you tell us if the item can be used normally?
+Any problems, please reply to us, we will offer good solutions.
+
+Thank you.
+Best regards.

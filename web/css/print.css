@@ -1,0 +1,33 @@
+/* CSS Document */
+/*********打印面单 rale*******/
+.print {
+    height:94mm;
+    width:96mm;
+    font-weight:100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+	margin:0px;
+    margin-top:3px;   
+    padding: 0px; 
+	border:1px #000 solid;
+	line-height:13.5px;
+}
+ 
+.bbottom{border-bottom:1px #000 solid;}
+.f42{
+	font-size:42px;
+	text-align: center;
+}
+.f20{font-size:20px;}
+ .en{-webkit-text-size-adjust:none;font-size:11px;
+}
+.cente{	text-align: center;
+}
+img{ padding-top:3px;}
+.noborder{border:0px #000 solid;}
+.noborder td{border-right:1px #000 solid;
+	border-bottom:1px #000 solid;}
+.noborder td:last-child{
+	border-right:0px #000 solid;
+}
+.f15 {font-size:15px;}

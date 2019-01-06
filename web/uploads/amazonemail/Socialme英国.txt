@@ -1,0 +1,15 @@
+邮件主题 order information from Amazon seller Socialme
+==========
+邮件内容
+Dear customer,
+
+We are sorry to bother you.
+
+You have purchased a product from our store previously.
+Could you confirm if you have received the product?
+Is the product can be worked well?
+
+If there’s any problem of the product, please contact us first, we will offer you solutions.
+
+Thank you.
+Best regards.

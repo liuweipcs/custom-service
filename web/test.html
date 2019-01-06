@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Email</title>
+</head>
+<body>
+
+	<form action="/services/amazon/amazon/sendmail" method="post">
+		<div>
+			<label>From:</label>
+			<input type="text" name="from" />
+		</div>
+
+		<div>
+			<label>To:</label>
+			<input type="text" name="to">
+		</div>
+
+		<div>
+			<label>Subject:</label>
+			<input type="text" name="subject">
+		</div>
+
+		<div>
+			<label>Body:</label>
+			<input type="text" name="body">
+		</div>
+
+		<div>
+			<input type="submit" value="submit">
+		</div>
+		
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+<?php
+require_once (__DIR__ . '/../config/Configuration.php');
+$dbParams = [
+    app\config\Configuration::APP_EVN_PRO => [
+        '0' => [
+            'class' => 'yii\db\Connection',
+            'driver' => 'mysql',
+            'host' => '192.168.71.175',
+            'port' => '3306',
+            'dbname' => DB_PREFIX . 'crm',
+            'emulatePrepare' => false,
+            'enableSchemaCache' => false,
+            'schemaCacheDuration' => 3600,
+            'tablePrefix' => DB_TABLE_PREFIX,
+            'username' => 'crmuser',
+            'password' => 'crm@123456',
+            'charset' => 'utf8mb4',
+            'dbname' => [
+                'db' => DB_PREFIX . 'crm'
+            ],
+        ],
+           '1' => [
+            'class' => 'yii\db\Connection',
+            'driver' => 'mysql',
+            'host' => '192.168.71.174',
+            'port' => '3306',
+            //'dbname' => ERP_DB_PREFIX . 'system',
+            'emulatePrepare' => false,
+            'enableSchemaCache' => false,
+            'schemaCacheDuration' => 3600,
+            'tablePrefix' => ERP_DB_TABLE_PREFIX,
+            'username' => 'crmerpuser',
+            'password' => 'crm@123456',
+            'charset' => 'utf8',
+            'dbname' => [
+                'db_system' => ERP_DB_PREFIX . 'system',
+                'db_order' => ERP_DB_PREFIX . 'order',
+                'db_product' => ERP_DB_PREFIX . 'product',
+                'db_warehouse' => ERP_DB_PREFIX . 'warehouse',
+                'db_logistics' => ERP_DB_PREFIX . 'logistics',
+            ],
+        ],
+],
+    app\config\Configuration::APP_EVN_DEV => [
+        '0' => [
+            'class' => 'yii\db\Connection',
+            'driver' => 'mysql',
+            'host' => '192.168.71.175',
+            'port' => '3306',
+            //'dbname' => DB_PREFIX . 'crm',
+            'emulatePrepare' => false,
+            'enableSchemaCache' => false,
+            'schemaCacheDuration' => 3600,
+            'tablePrefix' => DB_TABLE_PREFIX,
+            'username' => 'crmuser',
+            'password' => 'crm@123456',
+            'charset' => 'utf8',
+            'dbname' => [
+                'db' => DB_PREFIX . 'crm'
+            ],
+        ],
+        '1' => [
+            'class' => 'yii\db\Connection',
+            'driver' => 'mysql',
+            'host' => '192.168.71.174',
+            'port' => '3306',
+            //'dbname' => ERP_DB_PREFIX . 'system',
+            'emulatePrepare' => false,
+            'enableSchemaCache' => false,
+            'schemaCacheDuration' => 3600,
+            'tablePrefix' => ERP_DB_TABLE_PREFIX,
+            'username' => 'crmerpuser',
+            'password' => 'crm@123456',
+            'charset' => 'utf8',
+            'dbname' => [
+                'db_system' => ERP_DB_PREFIX . 'system',
+                'db_order' => ERP_DB_PREFIX . 'order',
+                'db_product' => ERP_DB_PREFIX . 'product',
+            ],
+        ],
+    ],
+    app\config\Configuration::APP_EVN_TEST => [
+        '0' => [
+            'class' => 'yii\db\Connection',
+            'driver' => 'mysql',
+            'host' => '192.168.3.201',
+            'port' => '3306',
+            'dbname' => DB_PREFIX . 'crm',
+            'emulatePrepare' => false,
+            'enableSchemaCache' => false,
+            'schemaCacheDuration' => 3600,
+            'tablePrefix' => DB_TABLE_PREFIX,
+            'username' => 'root',
+            'password' => '49BA59ABBE56E057',
+            'charset' => 'utf8',
+            'dbname' => [
+                'db' => DB_PREFIX . 'crm'
+            ],
+        ],
+        '1' => [
+            'class' => 'yii\db\Connection',
+            'driver' => 'mysql',
+            'host' => '192.168.3.201',
+            'port' => '3306',
+            'dbname' => ERP_DB_PREFIX . 'system',
+            'emulatePrepare' => false,
+            'enableSchemaCache' => false,
+            'schemaCacheDuration' => 3600,
+            'tablePrefix' => ERP_DB_TABLE_PREFIX,
+            'username' => 'root',
+            'password' => '49BA59ABBE56E057',
+            'charset' => 'utf8',
+            'dbname' => [
+                'db_system' => ERP_DB_PREFIX . 'system',
+                'db_order' => ERP_DB_PREFIX . 'order',
+            ],
+        ],
+    ],
+];
+return $dbParams;

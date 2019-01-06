@@ -1,0 +1,89 @@
+<!--页头的内容-->
+<div class="u-nav">
+	<div class="logo-bg">
+		<a class="logo-ico" href="<?php echo yii\helpers\Url::base(true);?>/default/index/index"></a>
+	</div>
+	<ul class="u-nav-left">
+		<li>笨鸟国际</li>
+	</ul>
+		<ul class="u-nav-right">
+		<li>
+			<?php //echo $this->_user['employeeName'];?>
+				<div class="sj-buttom"></div>
+				<ul class="u-nav-right">
+					<li><a href="<?php echo \yii\helpers\Url::toRoute(['/users/user/logout']);?>">退出</a></li>
+				</ul>
+	
+		</li>
+	</ul>
+</div>
+<!--当鼠标经过上面的服务和管理时   显示下面的模块   注：此功能暂时不显示  -->
+<!--<div class="sam-box">
+			<h3>模块开发中...</h3>
+		</div>-->
+<!--页头的内容END-->
+<!--左侧的列表-->
+		<div class="u-left" id="uleftbg">
+			<div class="u-left-btn" id="uLeft">
+				<a class="left-list-ico"></a>
+			</div>
+			<div class="leftsidebar_box">
+				<dl>
+					<dt><div class="sj-right" id="sanjiao"></div>用户管理<div class="shezhi"></div></dt>
+					<dd><a href="<?php //echo $this->url(array('module' => 'orders', 'controller' => 'order', 'action' => 'index'), null, true);?>"><i class="left-ico"><div class="a-qxddgl-ico"></div></i><span class="left-text" >用户列表</span> </a></dd>
+					<dd>
+						<a href="<?php //echo $this->url(array('module' => 'orders', 'controller' => 'order', 'action' => 'import'), null, true);?>"><i class="left-ico"><div class="a-ddd11-ico"></div></i><span class="left-text" >角色管理</span> </a>
+					</dd>
+				</dl>
+
+				<dl>
+					<dt><div class="sj-right"  id="sanjiao"></div>系统设置<div class="shezhi"></div></dt>
+					<dd>
+						<a href="<?php //echo $this->url(array('module' => 'orders', 'controller' => 'intostorageorder', 'action' => 'intostorage'), null, true);?>"><i class="left-ico"><div class="a-bbk-ico"></div></i><span class="left-text">邮件模板设置</span> </a>
+					</dd>
+					<dd>
+						<a href="<?php //echo $this->url(array('module' => 'orders', 'controller' => 'intostorageorder', 'action' => 'list'), null, true);?>"><i class="left-ico"><div class="a-bbk-ico"></div></i><span class="left-text">自动回复规则设置</span> </a>
+					</dd>
+				</dl>
+				<dl>
+					<dt><div class="sj-right" id="sanjiao"></div>平台账号管理<div class="shezhi"></div></dt>
+					<dd title="账号管理">
+						<a href="<?php //echo $this->url(array('module' => 'orders', 'controller' => 'lading', 'action' => 'list'), null, true);?>"><i class="left-ico"><div class="a-sbgl-ico"></div></i><span class="left-text">平台列表</span> </a>
+					</dd>
+					<dd title="账号管理">
+						<a href="<?php //echo $this->url(array('module' => 'orders', 'controller' => 'lading', 'action' => 'list'), null, true);?>"><i class="left-ico"><div class="a-sbgl-ico"></div></i><span class="left-text">账号列表</span> </a>
+					</dd>
+					<dd title="账号管理">
+						<a href="<?php //echo $this->url(array('module' => 'orders', 'controller' => 'lading', 'action' => 'list'), null, true);?>"><i class="left-ico"><div class="a-sbgl-ico"></div></i><span class="left-text">账号用户绑定</span> </a>
+					</dd>				
+					<!--
+					<dd title="成本核算">
+						<a href="<?php //echo $this->url(array('module' => 'orders', 'controller' => 'sorting', 'action' => 'list'), null, true);?>"><i class="left-ico"><div class="a-sbgl-ico"></div></i><span class="left-text">成本核算</span> </a>
+					</dd>
+					<dd title="渠道可发属性">
+						<a href="../LogisticsPriority/channelAttr.php"><i class="left-ico"><div class="a-qdkfsx-ico"></div></i><span class="left-text">渠道可发属性</span> </a>
+					</dd>-->
+					</dl>
+				<dl>
+					<dt><div class="sj-right" id="sanjiao"></div>平台消息管理<div class="shezhi"></div></dt>
+					<dd>
+						<a href="<?php //echo $this->url(array('module' => 'orders', 'controller' => 'track', 'action' => 'list'), null, true);?>"><i class="left-ico"><div class="a-dfh-ico "></div></i><span class="left-text" >ebay站内信</span> </a>
+					</dd>
+					<dd>
+						<a href="<?php //echo $this->url(array('module' => 'orders', 'controller' => 'track', 'action' => 'list'), null, true);?>"><i class="left-ico"><div class="a-dfh-ico "></div></i><span class="left-text" >ebay纠纷</span> </a>
+					</dd>
+					<dd>
+						<a href="<?php //echo $this->url(array('module' => 'orders', 'controller' => 'track', 'action' => 'list'), null, true);?>"><i class="left-ico"><div class="a-dfh-ico "></div></i><span class="left-text" >速卖通站内信</span> </a>
+					</dd>
+					<dd>
+						<a href="<?php //echo $this->url(array('module' => 'orders', 'controller' => 'track', 'action' => 'list'), null, true);?>"><i class="left-ico"><div class="a-dfh-ico "></div></i><span class="left-text" >速卖通订单留言</span> </a>
+					</dd>
+					<dd>
+						<a href="<?php //echo $this->url(array('module' => 'orders', 'controller' => 'track', 'action' => 'list'), null, true);?>"><i class="left-ico"><div class="a-dfh-ico "></div></i><span class="left-text" >评价</span> </a>
+					</dd>					
+					</dl>
+			</div>
+		</div>
+<div class="right" id="Right">
+<?php //echo $this->breakcrumb();?>
+
